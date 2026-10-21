@@ -1,0 +1,17 @@
+# Raw data
+data/raw/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.venv/
+venv/

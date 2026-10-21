@@ -210,17 +210,15 @@ Notebook:
 - PostgreSQL
 - Jupyter Notebook
 
+## Структура проекта
+
+```text
 ecommerce_product_analysis/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
 ├── images/
-│   ├── monthly_gmv.png
-│   ├── monthly_completed_orders.png
+│   ├── gmv_share_by_category.png
 │   ├── monthly_aov.png
-│   └── gmv_share_by_category.png
+│   ├── monthly_completed_orders.png
+│   └── monthly_gmv.png
 │
 ├── notebooks/
 │   ├── 01_data_overview.ipynb
@@ -230,4 +228,8 @@ ecommerce_product_analysis/
 │   ├── product_analysis.sql
 │   └── user_behavior.sql
 │
+├── .gitignore
 └── README.md
+```
+
+Исходные CSV-файлы хранятся локально в `data/raw/` и не добавляются в репозиторий
